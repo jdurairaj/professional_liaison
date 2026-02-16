@@ -156,7 +156,7 @@ if __name__ == "__main__":
         my_chatbot = gr.Chatbot(
             label="Jay's Career Agent",
             avatar_images=(None, avatar_path),
-            placeholder="<strong>Hello! I am Jay’s Professional Liaison</strong><br>I have been trained on Jay’s career history to answer your questions instantly. Please choose a topic below or type your own query."
+            placeholder="<strong>Hello! I am Jay’s Professional Liaison</strong><br>I'm an AI agent trained on Jay's career history. Ask me about his experience, skills, or how to get in touch or choose a topic below."
         )
 
         gr.ChatInterface(
