@@ -150,11 +150,12 @@ if __name__ == "__main__":
 
     # Note: Removed theme and css from here
     with gr.Blocks(title="Meet Jay") as app_chat:
-        gr.Markdown("# 🚀 Jay's Professional Liaison")
+        gr.Markdown("# 🚀 Jay's Career Liaison")
         
         # Removed type="messages" (it's now the default)
         my_chatbot = gr.Chatbot(
             label="Jay's Career Agent",
+            show_label=False,
             avatar_images=(None, avatar_path),
             placeholder="<strong>Hello! I am Jay’s Professional Liaison</strong><br>I'm an AI agent trained on Jay's career history. Ask me about his experience, skills, or how to get in touch or choose a topic below."
         )
